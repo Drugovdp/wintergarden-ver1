@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto:wght@400;500&display=swap');
+
+body {
+    font: 16px/1.4 'TT Norms Regular', sans-serif;
+    background: #F5F5F5;
+    min-height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+
+    textarea:focus,
+    input:focus {
+        outline: none;
+    }
+}
