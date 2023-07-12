@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import { Header } from '../Components/Header/Header'
 import { SectionOne } from '../Components/Section1/SectionOne'
 import { SectionTwo } from '../Components/Section2/SectionTwo'
@@ -56,7 +56,7 @@ export const App: React.FC = () => {
     }
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <WrapperApp>
                 <Header sizeWindow={sizeWindow} />
                 <Routes>
@@ -64,7 +64,7 @@ export const App: React.FC = () => {
                         path='/'
                         element={
                             <>
-                                 <SectionOne sizeWindow={sizeWindow} />
+                                <SectionOne sizeWindow={sizeWindow} />
                                 <SectionTwo />
                                 <SectionThree />
                                 <SectionFour />
@@ -74,7 +74,7 @@ export const App: React.FC = () => {
                                 <SectionEight />
                                 <SectionNine setCardID={(id) => setIDNineBlock(id)} />
                                 <SectionTen />
-                               <SectionEleven />
+                                <SectionEleven />
                                 <SectionTwelve />
                                 <SectionThirteen />
                             </>
@@ -85,7 +85,7 @@ export const App: React.FC = () => {
                 </Routes>
                 <Footer />
             </WrapperApp>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
