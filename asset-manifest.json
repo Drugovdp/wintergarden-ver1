@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wintergarden-ver1/static/css/main.0471e0e9.css",
-    "main.js": "/wintergarden-ver1/static/js/main.2a3876be.js",
+    "main.js": "/wintergarden-ver1/static/js/main.a63df541.js",
     "static/js/787.43dbbfeb.chunk.js": "/wintergarden-ver1/static/js/787.43dbbfeb.chunk.js",
     "static/media/manager.svg": "/wintergarden-ver1/static/media/manager.8e4e13646574f3b8cab776712a793dfd.svg",
     "static/media/menegerWhiteFon.svg": "/wintergarden-ver1/static/media/menegerWhiteFon.b6f32397d74293feed3c39ac419f2e9f.svg",
@@ -93,11 +93,11 @@
     "static/media/Star 1.svg": "/wintergarden-ver1/static/media/Star 1.e41780a6ab1998501303cb2745ea30f9.svg",
     "static/media/imgForLi.svg": "/wintergarden-ver1/static/media/imgForLi.3bcc78146b911606f49100aa59097e36.svg",
     "main.0471e0e9.css.map": "/wintergarden-ver1/static/css/main.0471e0e9.css.map",
-    "main.2a3876be.js.map": "/wintergarden-ver1/static/js/main.2a3876be.js.map",
+    "main.a63df541.js.map": "/wintergarden-ver1/static/js/main.a63df541.js.map",
     "787.43dbbfeb.chunk.js.map": "/wintergarden-ver1/static/js/787.43dbbfeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0471e0e9.css",
-    "static/js/main.2a3876be.js"
+    "static/js/main.a63df541.js"
   ]
 }
